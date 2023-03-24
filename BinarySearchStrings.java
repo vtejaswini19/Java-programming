@@ -7,7 +7,7 @@ public class BinarySearchStrings {
         String sentence = input.nextLine();
         String[] words = sentence.split("\\s+");
 
-        // Sort using bubble Sort
+        // bubble sort
         for (int i = 0; i < words.length - 1; ++i) {
             for (int j = 0; j < words.length - i - 1; ++j) {
                 if (words[j].compareTo(words[j + 1]) > 0) {
