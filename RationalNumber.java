@@ -1,4 +1,4 @@
-import java.util.Scanner;
+zimport java.util.Scanner;
 
 public class RationalNumber {
 	public static int gcd(int n1, int n2) {
@@ -15,6 +15,7 @@ public class RationalNumber {
 		}
 		
 		return n1;
+	#changed the file content
 	}
 	public static void main(String[] args) {
 		Scanner in = new Scanner(System.in);
